@@ -25,4 +25,9 @@ A pivotal moment in Project Vibe Check was scraping live comments during the Sep
 
 <p align="center"> <img src="Dashboard.png" alt="Dashboard" style="width: 80%;"> </p> <p align="center"><em>Dashboard of live data scrapper</em></p>
 
-This allowed for extensive analysis, revealing that live comments during the vice-presidential debate showed a slight lean towards right-wing sentiments, aligning with findings from previous debates.[Analysis results are summarized in this google document](https://docs.google.com/document/d/1MTqyvx0tWhKGo0CC850WHCXRY66lbglZUITiiJxLoBo/edit?usp=sharing)
+This allowed for extensive analysis, revealing that live comments during the vice-presidential debate showed a slight lean towards right-wing sentiments, aligning with findings from previous debates. [Analysis results are summarized in this google document](https://docs.google.com/document/d/1MTqyvx0tWhKGo0CC850WHCXRY66lbglZUITiiJxLoBo/edit?usp=sharing)
+
+Live chat had some different attributes compared to youtube comments. First was the obvious absence of like and reply features. Apart from that there are some attributes that might hold a different weightage than they did before as these timestamps are now reflective of real time reactions. By this time the vice presidential debate was approaching so the team had a similar setup to analyze those comments as well.   
+
+### Final Phase: Linking comments to Debate Transcripts  
+So far the tasks involved collection data and performing exploratory Data Analysis. However now was the time to get my hands dirty and dig deeper. One way to gain more insights was to  
