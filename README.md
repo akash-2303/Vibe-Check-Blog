@@ -10,3 +10,6 @@ The most important component of any analysis, to nobody's surprise is data. Thus
 <p align="center"> <img src="Scrapped_example.png" alt="Sample of oyutube comments data" style="width: 80%;"> </p> <p align="center"><em>Source: CBS News 2020</em></p>   
 
 After preprocessing the CSV files for all channels, I tried performing clustering with k=3 and tabulated the summary of my cluster interpretation after reverse encoding cluster centers. 
+
+<p align="center"> <img src="2020_cluster summary.png" alt="Clustering summary 2020" style="width: 80%;"> </p> <p align="center"></p> 
+
