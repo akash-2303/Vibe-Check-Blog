@@ -30,4 +30,17 @@ This allowed for extensive analysis, revealing that live comments during the vic
 Live chat had some different attributes compared to youtube comments. First was the obvious absence of like and reply features. Apart from that there are some attributes that might hold a different weightage than they did before as these timestamps are now reflective of real time reactions. By this time the vice presidential debate was approaching so the team had a similar setup to analyze those comments as well.   
 
 ### Final Phase: Linking comments to Debate Transcripts  
-So far the tasks involved collection data and performing exploratory Data Analysis. However now was the time to get my hands dirty and dig deeper. One way to gain more insights was to  
+So far the tasks involved collection data and performing exploratory Data Analysis. However now was the time to get my hands dirty and dig deeper. Specifically my target was to recognize each speaker’s speech, identify the topic they were discussing, and link the comments most relevant to these segments. This would provide a clearer picture of how the public reacted to specific topics and speakers during the debates. This task was approached as a two-stage problem:  
+
+#### Stage 1: Obtaining Debate Transcripts
+Whilst many online sources provided transcripts, these transcripts do not include critical elements like the timestamp. On the contrary youtube itself offered transcripts. I made sure to make use of this. First I got the audio files of the debate in .wav format and used the [pyannote/speaker-diarization](https://huggingface.co/pyannote/speaker-diarization) model. This model identified distinct speakers and assigned the appropriate dialogue to each speaker, complete with timestamps(from youtube). This nuanced diarization allowed for a detailed mapping of the debate, where each segment was accurately tagged with the respective speaker and the corresponding time.. Whilst the model performed poorly on the vice presidential debate, it was working well for the first two debates between Trump and Biden and Kamala Harris and Trump and hence I just processed those transcripts.  
+
+#### Stage 2: Linking Comments to Debate Segments
+Once the transcripts were prepared, the next challenge was linking user comments to the pertinent segments of the debate. Initially, I considered analyzing a fixed number of top comments. However, a more sophisticated approach recommended to me was using time as a measure for selecting relevant comments. To implement this, I used a time-series K-Nearest Neighbors (KNN) algorithm. The process involved vectorizing both the speaker’s remarks and the user comments. By creating a sensible time window (e.g., 10-30 seconds), the KNN algorithm calculated the cosine similarity between the speaker's comments and user responses. This method ensured that comments were not only within the correct time frame but also contextually relevant to the speaker's message. 
+
+<p align="center"> <img src="linked_comment_sample.png" alt="LC" style="width: 80%;"> </p> <p align="center"><em>Structure of Linked Comments</em></p>
+
+I performed linking for both the presidential debates of 2024. Since these files were 6+ GB [I stored in drive](https://uflorida-my.sharepoint.com/:f:/g/personal/akashbalaji_ufl_edu/El6ZUOgjBLxElQAw0iOyPdEBqJNN7Q7bCrjts8272POVEw?e=8dONxJ) 
+
+### Closing Thoughts
+Vibe Check was an opportunity to work with wonderful people on a very interesting project exploring the intersection of politics, social media and data analysis.  Looking ahead there is so much more that can be done, like visualizing the linked comments using interactive dashboards and refining analysis to capture more granular insights. 
