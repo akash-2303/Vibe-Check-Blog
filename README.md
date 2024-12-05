@@ -13,6 +13,8 @@ After preprocessing the CSV files for all channels, I tried performing clusterin
 
 <p align="center"> <img src="2020_cluster summary.png" alt="Clustering summary 2020" style="width: 80%;"> </p> <p align="center"></p> 
 
-This is up for interpretation. Next up was extending the same pipeline for first presidential debate of 2024 between Joe Biden and Donald Trump. This time, we gathered comments from MSNBC, C-SPAN, USA Today, NBC and Wall Street Journal. We recorded the results similarly([which you can check out here](https://github.com/akash-2303/Election-Data/tree/main/Debate_2024/data/datasets)) and I performed similar analysis. The results appeared more one sided this time. 
+This is up for interpretation. Next up was extending the same pipeline for first presidential debate of 2024 between Joe Biden and Donald Trump. This time, we gathered comments from MSNBC, C-SPAN, USA Today, NBC and Wall Street Journal. We recorded the results similarly([which you can check out here](https://github.com/akash-2303/Election-Data/tree/main/Debate_2024/data/datasets)) and I performed similar analysis. The results appeared more one sided and franfly, hard to interpret.
+
+<p align="center"> <img src="Custering 2024.png" alt="Clustering summary 2020" style="width: 80%;"> </p> <p align="center"></p> 
 
 
