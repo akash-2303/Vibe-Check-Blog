@@ -11,10 +11,12 @@ The most important component of any analysis, to nobody's surprise is data. Thus
 
 After preprocessing the CSV files for all channels, I tried performing clustering with k=3 and tabulated the summary of my cluster interpretation after reverse encoding cluster centers. 
 
-<p align="center"> <img src="2020_cluster summary.png" alt="Clustering summary 2020" style="width: 80%;"> </p> <p align="center"></p> 
+<p align="center"> <img src="2020_cluster summary.png" alt="Clustering summary 2020" style="width: 80%;"> </p> <p align="center"><em>Cluster results 2020</em></p> 
 
-This is up for interpretation. Next up was extending the same pipeline for first presidential debate of 2024 between Joe Biden and Donald Trump. This time, we gathered comments from MSNBC, C-SPAN, USA Today, NBC and Wall Street Journal. We recorded the results similarly([which you can check out here](https://github.com/akash-2303/Election-Data/tree/main/Debate_2024/data/datasets)) and I performed similar analysis. The results appeared more one sided and franfly, hard to interpret.
+This is up for interpretation. Next up was extending the same pipeline for first presidential debate of 2024 between Joe Biden and Donald Trump. This time, we gathered comments from MSNBC, C-SPAN, USA Today, NBC and Wall Street Journal. We recorded the results similarly([which you can check out here](https://github.com/akash-2303/Election-Data/tree/main/Debate_2024/data/datasets)) and I performed similar analysis. The results appeared more one sided and the clusters were hard to interpret.
 
-<p align="center"> <img src="Custering 2024.png" alt="Clustering summary 2020" style="width: 80%;"> </p> <p align="center"></p> 
+<p align="center"> <img src="Custering 2024.png" alt="Clustering summary 2020" style="width: 80%;"> </p> <p align="center"><em>Cluster groups 2024</em></p>
+
+Notably, many comments highlighted perceived media bias, either favoring one candidate or downplaying another. This observation was crucial, as it shed light on how media outlets might influence political discourse and public perception. Fortunately [The AllSides Media Bias Chart](https://www.allsides.com/media-bias/media-bias-chart) helped display some of the bias news outlets might have. This was important not just for the analysis done so far but also for the upcoming data collection and analysis as this not only highlighted media and moderator bias but also the kind of audience each channel was more likely to pull and what their leaning could be more often than not. 
 
 
