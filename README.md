@@ -42,5 +42,9 @@ Once the transcripts were prepared, the next challenge was linking user comments
 
 I performed linking for both the presidential debates of 2024. Since these files were 6+ GB [I stored in drive](https://uflorida-my.sharepoint.com/:f:/g/personal/akashbalaji_ufl_edu/El6ZUOgjBLxElQAw0iOyPdEBqJNN7Q7bCrjts8272POVEw?e=8dONxJ) 
 
+#### Stage 3: Dashboard
+The final part was making a dashboard to showcase my results. Owint to time restrictions I was only able to make the dashboard for one deabte, so I made it for the first presidential debate of 2024 between candidates Donald Trump and Joe Biden. Since I am using session memory to store comments I am only displaying the first 10 linked comments. I made the dahsboard using Gant charts and dash in [`plotly`](https://dash.plotly.com/tutorial)
+
+
 ### Closing Thoughts
 Vibe Check was an opportunity to work with wonderful people on a very interesting project exploring the intersection of politics, social media and data analysis.  Looking ahead there is so much more that can be done, like visualizing the linked comments using interactive dashboards and refining analysis to capture more granular insights. 
