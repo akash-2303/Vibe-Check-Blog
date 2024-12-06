@@ -51,5 +51,5 @@ Here is a video description of the dashboard in its current status: [Dashboard](
 ### Closing Thoughts
 Vibe Check was an opportunity to work with wonderful people on a very interesting project exploring the intersection of politics, social media and data analysis.  Looking ahead there is so much more that can be done, like visualizing the linked comments using interactive dashboards and refining analysis to capture more granular insights. If you are interested in my presentations and code, here is the document where I have recorded all of that:
 
-`https://docs.google.com/document/d/1P7Z2tTjK7h-4pHi_jxFflFE1-94n7eyW6jVrjENzxJw/edit?usp=sharing`
+`[Document]`(https://docs.google.com/document/d/1P7Z2tTjK7h-4pHi_jxFflFE1-94n7eyW6jVrjENzxJw/edit?usp=sharing)`
 
