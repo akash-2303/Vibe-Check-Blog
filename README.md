@@ -43,7 +43,7 @@ Once the transcripts were prepared, the next challenge was linking user comments
 I performed linking for both the presidential debates of 2024. Since these files were 6+ GB [I stored in drive](https://uflorida-my.sharepoint.com/:f:/g/personal/akashbalaji_ufl_edu/El6ZUOgjBLxElQAw0iOyPdEBqJNN7Q7bCrjts8272POVEw?e=8dONxJ) 
 
 #### Stage 3: Dashboard
-The final part was making a dashboard to showcase my results. Owint to time restrictions I was only able to make the dashboard for one deabte, so I made it for the first presidential debate of 2024 between candidates Donald Trump and Joe Biden. Since I am using session memory to store comments I am only displaying the first 10 linked comments. I made the dahsboard using Gant charts and dash in [`plotly`](https://dash.plotly.com/tutorial). 
+The final part was making a dashboard to showcase my results. Owing to time restrictions I was only able to make the dashboard for one deabte, so I made it for the first presidential debate of 2024 between candidates Donald Trump and Joe Biden. Since I am using session memory to store comments I am only displaying the first 10 linked comments. I made the dahsboard using Gant charts and dash in [`plotly`](https://dash.plotly.com/tutorial). 
 
 Here is a video description of the dashboard in its current status: [Dashboard](https://youtu.be/74ku-mNPG-U)
 
